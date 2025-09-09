@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "m1"
+version = "0.1.0"
+description = ""
+authors = ["vdavtyan <vdavtyan@aligntech.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+comtypes = "^1.4.12"
+pypdf2 = "^3.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

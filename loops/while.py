@@ -14,3 +14,14 @@ while flag:
     sm += num
     i+=1
 print(sm, sum(a[:-1]))
+
+
+
+while True:
+    user_input = input("Enter command")
+    # fetch
+    if user_input == "add":
+
+    if user_input == 'exit':
+        break
+print("Finished")
